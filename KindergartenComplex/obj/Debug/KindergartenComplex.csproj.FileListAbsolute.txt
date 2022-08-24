@@ -1,0 +1,102 @@
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\bin\Debug\KindergartenComplex.exe.config
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\bin\Debug\KindergartenComplex.exe
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\bin\Debug\KindergartenComplex.pdb
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.csprojAssemblyReference.cache
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.Properties.Resources.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.csproj.GenerateResource.cache
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.exe
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.pdb
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.AuthForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.ManagerForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.TeacherForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Employees.EmployeeAddForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Groups.GroupAddForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Pupils.PupilAddForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Groups.GroupEditForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Employees.EmployeeEditForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Pupils.PupilEditForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.csproj.CoreCompileInputs.cache
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.SickLeaves.SickLeaveAddForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.SickLeaves.SickLeaveEditForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Vacations.VacationAddForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Vacations.VacationEditForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.DetailsForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Provision.ProvisionForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Provision.ProvisionAddForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Provision.ProvisionEditForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.Teacher_Forms.Provision.ProvisionMonitoringForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.User_Registration.RegistrationForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.User_Registration.SuccessForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.EditAccountForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.Teacher_Forms.Methodical_Work.MethodicalWorkAddForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.Teacher_Forms.Methodical_Work.MethodicalWorkEditForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Methodical_Work_Reports.MethodicalWorkReportForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Labor_Safety_Exam.LaborSafetyExamAndRetrainingCoursesForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Labor_Safety_Exam.LaborSafetyExamAndRetrainingCoursesAddForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Labor_Safety_Exam.LaborSafetyExamAndRetrainingCoursesEditForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Academic_Plan.AcademicPlanForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.csproj.ResolveComReference.cache
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.Teacher_Forms.Pupils_SickLeaves.PupilSickLeaveAddForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.Teacher_Forms.Pupils_SickLeaves.PupilSickLeaveEditForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.SickLeave_Reports.SickLeaveReportForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Attendance_Reports.AttendanceReportForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.Teacher_Forms.Schedule.CreateScheduleForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.Teacher_Forms.Schedule.ScheduleForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Control_Schedule.ControlScheduleForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Control_Schedule.ControlTopicsForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Control_Schedule.ControlTopicAddForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Control_Schedule.ControlTopicEditForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Provision.ProvisionChartForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Control_List.ControlListForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex\KindergartenComplex\obj\Debug\KindergartenComplex.Teacher_Forms.Employee_Control_Schedule.EmployeeControlScheduleForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\bin\Debug\KindergartenComplex.exe.config
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\bin\Debug\KindergartenComplex.exe
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\bin\Debug\KindergartenComplex.pdb
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.csprojAssemblyReference.cache
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.csproj.ResolveComReference.cache
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.AuthForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.DetailsForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.EditAccountForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Academic_Plan.AcademicPlanForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Attendance_Reports.AttendanceReportForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Control_List.ControlListForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Control_Schedule.ControlScheduleForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Control_Schedule.ControlTopicAddForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Control_Schedule.ControlTopicEditForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Control_Schedule.ControlTopicsForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Employees.EmployeeAddForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Employees.EmployeeEditForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Groups.GroupAddForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Groups.GroupEditForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Labor_Safety_Exam.LaborSafetyExamAndRetrainingCoursesAddForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Labor_Safety_Exam.LaborSafetyExamAndRetrainingCoursesEditForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Labor_Safety_Exam.LaborSafetyExamAndRetrainingCoursesForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Methodical_Work_Reports.MethodicalWorkReportForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Provision.ProvisionAddForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Provision.ProvisionChartForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Provision.ProvisionEditForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Provision.ProvisionForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Pupils.PupilAddForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Pupils.PupilEditForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.SickLeave_Reports.SickLeaveReportForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.SickLeaves.SickLeaveAddForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.SickLeaves.SickLeaveEditForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.User_Registration.RegistrationForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.User_Registration.SuccessForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Vacations.VacationAddForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.Manager_Forms.Vacations.VacationEditForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.Properties.Resources.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.ManagerForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.Teacher_Forms.Employee_Control_Schedule.EmployeeControlScheduleForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.Teacher_Forms.Methodical_Work.MethodicalWorkAddForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.Teacher_Forms.Methodical_Work.MethodicalWorkEditForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.Teacher_Forms.Provision.ProvisionMonitoringForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.Teacher_Forms.Pupils_SickLeaves.PupilSickLeaveAddForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.Teacher_Forms.Pupils_SickLeaves.PupilSickLeaveEditForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.Teacher_Forms.Schedule.CreateScheduleForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.Teacher_Forms.Schedule.ScheduleForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.TeacherForm.resources
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.csproj.GenerateResource.cache
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.csproj.CoreCompileInputs.cache
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.exe
+D:\Универ\4 КУРС\Диплом\KindergartenComplex Release\KindergartenComplex\obj\Debug\KindergartenComplex.pdb

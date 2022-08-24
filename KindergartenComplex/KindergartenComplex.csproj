@@ -1,0 +1,492 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FB2C47A8-0ECC-4392-8DAD-7E6115887052}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>KindergartenComplex</RootNamespace>
+    <AssemblyName>KindergartenComplex</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceProcess" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account Editing\AccountEditingController.cs" />
+    <Compile Include="Authorization\AuthForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Authorization\AuthForm.Designer.cs">
+      <DependentUpon>AuthForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DetailsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DetailsForm.Designer.cs">
+      <DependentUpon>DetailsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Account Editing\EditAccountForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Account Editing\EditAccountForm.Designer.cs">
+      <DependentUpon>EditAccountForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager Forms\Academic Plan\AcademicPlanForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager Forms\Academic Plan\AcademicPlanForm.Designer.cs">
+      <DependentUpon>AcademicPlanForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager Forms\Attendance Reports\AttendanceReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager Forms\Attendance Reports\AttendanceReportForm.Designer.cs">
+      <DependentUpon>AttendanceReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager Forms\Control List\ControlListForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager Forms\Control List\ControlListForm.Designer.cs">
+      <DependentUpon>ControlListForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager Forms\Control Schedule\ControlTopicAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager Forms\Control Schedule\ControlTopicAddForm.Designer.cs">
+      <DependentUpon>ControlTopicAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager Forms\Control Schedule\ControlTopicEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager Forms\Control Schedule\ControlTopicEditForm.Designer.cs">
+      <DependentUpon>ControlTopicEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager Forms\Control Schedule\ControlTopicsController.cs" />
+    <Compile Include="Manager Forms\Control Schedule\ControlScheduleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager Forms\Control Schedule\ControlScheduleForm.Designer.cs">
+      <DependentUpon>ControlScheduleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager Forms\Control Schedule\ControlTopicsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager Forms\Control Schedule\ControlTopicsForm.Designer.cs">
+      <DependentUpon>ControlTopicsForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager Forms\Employees\EmployeeAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager Forms\Employees\EmployeeAddForm.Designer.cs">
+      <DependentUpon>EmployeeAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager Forms\Employees\EmployeeController.cs" />
+    <Compile Include="Manager Forms\Employees\EmployeeEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager Forms\Employees\EmployeeEditForm.Designer.cs">
+      <DependentUpon>EmployeeEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager Forms\Groups\GroupAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager Forms\Groups\GroupAddForm.Designer.cs">
+      <DependentUpon>GroupAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager Forms\Groups\GroupController.cs" />
+    <Compile Include="Manager Forms\Groups\GroupEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager Forms\Groups\GroupEditForm.Designer.cs">
+      <DependentUpon>GroupEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager Forms\Labor Safety Exam And Retraining Courses\LaborSafetyExamAndRetrainingCoursesAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager Forms\Labor Safety Exam And Retraining Courses\LaborSafetyExamAndRetrainingCoursesAddForm.Designer.cs">
+      <DependentUpon>LaborSafetyExamAndRetrainingCoursesAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager Forms\Labor Safety Exam And Retraining Courses\LaborSafetyExamAndRetrainingCoursesController.cs" />
+    <Compile Include="Manager Forms\Labor Safety Exam And Retraining Courses\LaborSafetyExamAndRetrainingCoursesEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager Forms\Labor Safety Exam And Retraining Courses\LaborSafetyExamAndRetrainingCoursesEditForm.Designer.cs">
+      <DependentUpon>LaborSafetyExamAndRetrainingCoursesEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager Forms\Labor Safety Exam And Retraining Courses\LaborSafetyExamAndRetrainingCoursesForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager Forms\Labor Safety Exam And Retraining Courses\LaborSafetyExamAndRetrainingCoursesForm.Designer.cs">
+      <DependentUpon>LaborSafetyExamAndRetrainingCoursesForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager Forms\Methodical Work Reports\MethodicalWorkReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager Forms\Methodical Work Reports\MethodicalWorkReportForm.Designer.cs">
+      <DependentUpon>MethodicalWorkReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager Forms\Provision\ProvisionAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager Forms\Provision\ProvisionAddForm.Designer.cs">
+      <DependentUpon>ProvisionAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager Forms\Provision\ProvisionChartForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager Forms\Provision\ProvisionChartForm.Designer.cs">
+      <DependentUpon>ProvisionChartForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager Forms\Provision\ProvisionController.cs" />
+    <Compile Include="Manager Forms\Provision\ProvisionEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager Forms\Provision\ProvisionEditForm.Designer.cs">
+      <DependentUpon>ProvisionEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager Forms\Provision\ProvisionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager Forms\Provision\ProvisionForm.Designer.cs">
+      <DependentUpon>ProvisionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager Forms\Pupils\PupilAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager Forms\Pupils\PupilAddForm.Designer.cs">
+      <DependentUpon>PupilAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager Forms\Pupils\PupilController.cs" />
+    <Compile Include="Manager Forms\Pupils\PupilEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager Forms\Pupils\PupilEditForm.Designer.cs">
+      <DependentUpon>PupilEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager Forms\SickLeave Reports\SickLeaveReportController.cs" />
+    <Compile Include="Manager Forms\SickLeave Reports\SickLeaveReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager Forms\SickLeave Reports\SickLeaveReportForm.Designer.cs">
+      <DependentUpon>SickLeaveReportForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager Forms\SickLeaves\SickLeaveAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager Forms\SickLeaves\SickLeaveAddForm.Designer.cs">
+      <DependentUpon>SickLeaveAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager Forms\SickLeaves\SickLeaveController.cs" />
+    <Compile Include="Manager Forms\SickLeaves\SickLeaveEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager Forms\SickLeaves\SickLeaveEditForm.Designer.cs">
+      <DependentUpon>SickLeaveEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager Forms\User Registration\RegistrationController.cs" />
+    <Compile Include="Manager Forms\User Registration\RegistrationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager Forms\User Registration\RegistrationForm.Designer.cs">
+      <DependentUpon>RegistrationForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager Forms\User Registration\SuccessForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager Forms\User Registration\SuccessForm.Designer.cs">
+      <DependentUpon>SuccessForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager Forms\Vacations\VacationAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager Forms\Vacations\VacationAddForm.Designer.cs">
+      <DependentUpon>VacationAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager Forms\Vacations\VacationController.cs" />
+    <Compile Include="Manager Forms\Vacations\VacationEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager Forms\Vacations\VacationEditForm.Designer.cs">
+      <DependentUpon>VacationEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="AppParameters.cs" />
+    <Compile Include="Manager Forms\ManagerForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager Forms\ManagerForm.Designer.cs">
+      <DependentUpon>ManagerForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher Forms\AttendanceManagement.cs" />
+    <Compile Include="Teacher Forms\Employee Control Schedule\EmployeeControlScheduleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher Forms\Employee Control Schedule\EmployeeControlScheduleForm.Designer.cs">
+      <DependentUpon>EmployeeControlScheduleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher Forms\Methodical Work\MethodicalWorkAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher Forms\Methodical Work\MethodicalWorkAddForm.Designer.cs">
+      <DependentUpon>MethodicalWorkAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher Forms\Methodical Work\MethodicalWorkController.cs" />
+    <Compile Include="Teacher Forms\Methodical Work\MethodicalWorkEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher Forms\Methodical Work\MethodicalWorkEditForm.Designer.cs">
+      <DependentUpon>MethodicalWorkEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher Forms\Provision\ProvisionMonitoringController.cs" />
+    <Compile Include="Teacher Forms\Provision\ProvisionMonitoringForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher Forms\Provision\ProvisionMonitoringForm.Designer.cs">
+      <DependentUpon>ProvisionMonitoringForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher Forms\Pupils SickLeaves\PupilSickLeaveAddForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher Forms\Pupils SickLeaves\PupilSickLeaveAddForm.Designer.cs">
+      <DependentUpon>PupilSickLeaveAddForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher Forms\Pupils SickLeaves\PupilSickLeaveEditForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher Forms\Pupils SickLeaves\PupilSickLeaveEditForm.Designer.cs">
+      <DependentUpon>PupilSickLeaveEditForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher Forms\Pupils SickLeaves\PupilsSickLeaveController.cs" />
+    <Compile Include="Teacher Forms\Schedule\CreateScheduleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher Forms\Schedule\CreateScheduleForm.Designer.cs">
+      <DependentUpon>CreateScheduleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher Forms\Schedule\ScheduleController.cs" />
+    <Compile Include="Teacher Forms\Schedule\ScheduleForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher Forms\Schedule\ScheduleForm.Designer.cs">
+      <DependentUpon>ScheduleForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Teacher Forms\TeacherForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Teacher Forms\TeacherForm.Designer.cs">
+      <DependentUpon>TeacherForm.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Authorization\AuthForm.resx">
+      <DependentUpon>AuthForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DetailsForm.resx">
+      <DependentUpon>DetailsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Account Editing\EditAccountForm.resx">
+      <DependentUpon>EditAccountForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager Forms\Academic Plan\AcademicPlanForm.resx">
+      <DependentUpon>AcademicPlanForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager Forms\Attendance Reports\AttendanceReportForm.resx">
+      <DependentUpon>AttendanceReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager Forms\Control List\ControlListForm.resx">
+      <DependentUpon>ControlListForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager Forms\Control Schedule\ControlScheduleForm.resx">
+      <DependentUpon>ControlScheduleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager Forms\Control Schedule\ControlTopicAddForm.resx">
+      <DependentUpon>ControlTopicAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager Forms\Control Schedule\ControlTopicEditForm.resx">
+      <DependentUpon>ControlTopicEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager Forms\Control Schedule\ControlTopicsForm.resx">
+      <DependentUpon>ControlTopicsForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager Forms\Employees\EmployeeAddForm.resx">
+      <DependentUpon>EmployeeAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager Forms\Employees\EmployeeEditForm.resx">
+      <DependentUpon>EmployeeEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager Forms\Groups\GroupAddForm.resx">
+      <DependentUpon>GroupAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager Forms\Groups\GroupEditForm.resx">
+      <DependentUpon>GroupEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager Forms\Labor Safety Exam And Retraining Courses\LaborSafetyExamAndRetrainingCoursesAddForm.resx">
+      <DependentUpon>LaborSafetyExamAndRetrainingCoursesAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager Forms\Labor Safety Exam And Retraining Courses\LaborSafetyExamAndRetrainingCoursesEditForm.resx">
+      <DependentUpon>LaborSafetyExamAndRetrainingCoursesEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager Forms\Labor Safety Exam And Retraining Courses\LaborSafetyExamAndRetrainingCoursesForm.resx">
+      <DependentUpon>LaborSafetyExamAndRetrainingCoursesForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager Forms\Methodical Work Reports\MethodicalWorkReportForm.resx">
+      <DependentUpon>MethodicalWorkReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager Forms\Provision\ProvisionAddForm.resx">
+      <DependentUpon>ProvisionAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager Forms\Provision\ProvisionChartForm.resx">
+      <DependentUpon>ProvisionChartForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager Forms\Provision\ProvisionEditForm.resx">
+      <DependentUpon>ProvisionEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager Forms\Provision\ProvisionForm.resx">
+      <DependentUpon>ProvisionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager Forms\Pupils\PupilAddForm.resx">
+      <DependentUpon>PupilAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager Forms\Pupils\PupilEditForm.resx">
+      <DependentUpon>PupilEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager Forms\SickLeave Reports\SickLeaveReportForm.resx">
+      <DependentUpon>SickLeaveReportForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager Forms\SickLeaves\SickLeaveAddForm.resx">
+      <DependentUpon>SickLeaveAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager Forms\SickLeaves\SickLeaveEditForm.resx">
+      <DependentUpon>SickLeaveEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager Forms\User Registration\RegistrationForm.resx">
+      <DependentUpon>RegistrationForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager Forms\User Registration\SuccessForm.resx">
+      <DependentUpon>SuccessForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager Forms\Vacations\VacationAddForm.resx">
+      <DependentUpon>VacationAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager Forms\Vacations\VacationEditForm.resx">
+      <DependentUpon>VacationEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Manager Forms\ManagerForm.resx">
+      <DependentUpon>ManagerForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher Forms\Employee Control Schedule\EmployeeControlScheduleForm.resx">
+      <DependentUpon>EmployeeControlScheduleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher Forms\Methodical Work\MethodicalWorkAddForm.resx">
+      <DependentUpon>MethodicalWorkAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher Forms\Methodical Work\MethodicalWorkEditForm.resx">
+      <DependentUpon>MethodicalWorkEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher Forms\Provision\ProvisionMonitoringForm.resx">
+      <DependentUpon>ProvisionMonitoringForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher Forms\Pupils SickLeaves\PupilSickLeaveAddForm.resx">
+      <DependentUpon>PupilSickLeaveAddForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher Forms\Pupils SickLeaves\PupilSickLeaveEditForm.resx">
+      <DependentUpon>PupilSickLeaveEditForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher Forms\Schedule\CreateScheduleForm.resx">
+      <DependentUpon>CreateScheduleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher Forms\Schedule\ScheduleForm.resx">
+      <DependentUpon>ScheduleForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Teacher Forms\TeacherForm.resx">
+      <DependentUpon>TeacherForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

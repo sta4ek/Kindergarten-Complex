@@ -1,0 +1,29 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29905.134
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KindergartenComplex", "KindergartenComplex\KindergartenComplex.csproj", "{FB2C47A8-0ECC-4392-8DAD-7E6115887052}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Kindergarten Complex", "Kindergarten Complex\Kindergarten Complex.vdproj", "{A67E8A03-E085-4ADB-8C08-0B1D03BBC935}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FB2C47A8-0ECC-4392-8DAD-7E6115887052}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{FB2C47A8-0ECC-4392-8DAD-7E6115887052}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{FB2C47A8-0ECC-4392-8DAD-7E6115887052}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB2C47A8-0ECC-4392-8DAD-7E6115887052}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A67E8A03-E085-4ADB-8C08-0B1D03BBC935}.Debug|Any CPU.ActiveCfg = Debug
+		{A67E8A03-E085-4ADB-8C08-0B1D03BBC935}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {786AF31A-8611-4913-8240-AB962727A0B6}
+	EndGlobalSection
+EndGlobal
